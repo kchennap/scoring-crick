@@ -1,0 +1,85 @@
+page-home-2 {
+            ion-content {
+                background-image: url("../../assets/imgs/bckg.png"); 
+            }
+        
+            .balanced {
+                color: red;
+            }
+        
+            .score {
+                color: blue;
+                text-align: center;
+                size: 80px;
+            }
+        
+            ion-card {
+                position: relative;
+                text-align: center;
+            }
+        
+            ion-button {
+                length: 10px;
+                color: secondary;
+            }
+        
+            .call {
+                length: 100px;
+            }
+        
+            .inn {
+                position: absolute;
+                font-size: 1.5em;
+                background-color: #82B2E2;
+                border-bottom-style: solid;
+                border-right-style: solid;
+                border-color: #6493CA;
+                border-radius: 5px;
+                border-width: 1px;
+                text-align: left;
+            }
+        
+            .buttons {
+                position: absolute;
+                top: 65%;
+                left: 7%;
+            }
+        
+            .preview {
+                position: absolute;
+                bottom: 0%;
+                right:0%;
+                //right: 10%;
+                font-weight: bold;
+                width: 40px;
+                text-align: center;
+                height: 40px;
+                border-style: solid;
+                border-color: black;
+                background: lightgray;
+            }
+        
+            .card-title {
+                position: absolute;
+                top: 36%;
+                font-size: 3.0em;
+                width: 100%;
+                font-weight: bold;
+                color: #fff;
+              }
+            
+              .card-subtitle {
+                font-size: 1.0em;
+                position: absolute;
+                top: 60%;
+                width: 100%;
+                color: #fff;
+              }
+        
+              .enter{
+                  position: absolute;
+                  bottom: 0%;
+              }
+        
+        
+}   

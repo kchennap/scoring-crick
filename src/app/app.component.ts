@@ -4,11 +4,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+import { BreakPage } from '../pages/break/break';
+import { MainPage } from '../pages/main/main';
+import { Home_2Page } from '../pages/home-2/home-2';
+import { MatchendPage } from '../pages/matchend/matchend';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = MainPage;
+  
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

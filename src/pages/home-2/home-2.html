@@ -1,0 +1,48 @@
+<ion-header>
+    <ion-navbar color="primary">
+      <ion-title>
+        Second Innings
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <!-- <ion-content padding>
+    The world is your oyster.
+    <p>
+      If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    </p>
+  </ion-content> -->
+  
+  
+    <ion-content color="secondary">
+    
+        <ion-card>
+            <div class="inn"><label ><b> Innings {{innings}}</b></label></div>
+            <img src="assets/imgs/field.png"/>
+            <div class="card-title" >{{score}} / {{wickets}}</div>
+            <div class="card-subtitle">{{overs}}.{{balls%6}} ({{overs_set}}.0)<br>
+             {{score_left}} runs required from {{balls_left}} balls</div>
+             <div class="preview">
+                {{preview}}
+              </div>
+
+        </ion-card>
+  
+      <div class="buttons">
+        <button ion-button (click)="add(1)">+1</button>
+        <button ion-button (click)="add(2)">+2</button>
+        <button ion-button (click)="add(3)">+3</button>
+        <button ion-button (click)="add(4)">+4</button>
+        <button ion-button (click)="add(6)">+6</button>
+        <button ion-button (click)="add(0)">Dot</button>
+        
+        <button ion-button padding block color="light" (click)="extras()" ><img style="width: 10%;" src="assets/imgs/ump.png" /> Extra</button>        
+        <button ion-button padding block color="danger" (click)="wicket()"><img style="width: 15%;" src="assets/imgs/bails.png" /> Wicket</button>
+      </div>
+  
+      
+  
+        <button class="enter" (click)="enter()" ion-button full>Enter</button>
+        <!--<button ion-button full>Enter</button> -->
+    </ion-content>
+  

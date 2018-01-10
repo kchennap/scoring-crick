@@ -1,0 +1,43 @@
+page-break {
+    ion-card {
+        position: relative;
+        text-align: center;
+        
+    }
+
+    ion-card-header {
+        font-size: 5px;
+    }
+
+    .inn {
+        position: absolute;
+        font-size: 1.5em;
+        // background-color: #82B2E2;
+        left: 20%;
+    }
+
+    .card-title {
+        position: absolute;
+        top: 50%;
+        right: 1%;
+        font-size: 3.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+      }
+    
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 70%;
+        right: 1%;
+        width: 100%;
+        color: #fff;
+      }
+
+      .next {
+          display: block;
+          float: right;
+          width: 100%;
+      }
+}
